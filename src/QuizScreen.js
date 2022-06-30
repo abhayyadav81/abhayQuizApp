@@ -108,9 +108,13 @@ const QuizScreen = () => {
                     </View>
                 )
             })}
-            <View style={{marginTop:20,borderRadius:10}}>
-                <Button title='Submit' onPress={() => changeQueFunction()}  />
-            </View>
+           
+            <View style={{alignItems:'center',justifyContent:'center' ,backgroundColor:'#77DD77',marginTop:40,borderRadius:10}}>
+          <TouchableOpacity onPress={() => changeQueFunction() }>
+            <Text style={{color:'white',fontSize:30,}}>SUBMIT</Text>
+          </TouchableOpacity>
+          
+        </View>
 
 
 
